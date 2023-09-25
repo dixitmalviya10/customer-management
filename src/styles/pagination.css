@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item {
+  list-style: none;
+  cursor: pointer;
+  margin: 0.2rem;
+}
+
+.page-link-item {
+  background-color: rgb(225, 240, 253);
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.active-page {
+  background-color: rgb(72, 169, 254);
+}
+
+.prev-btn,
+.next-btn {
+  list-style: none;
+  cursor: pointer;
+}
+
+.prev-btn-link,
+.next-btn-link {
+  background-color: rgb(225, 240, 253);
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
